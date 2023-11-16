@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body{
+    font-family: sans-serif;
+    background-image: url(https://files.tecnoblog.net/wp-content/uploads/2021/12/melhor-streaming-2021-netflix-1.jpg);
+    background-repeat: no-repeat;
+background-position: center top;
+background-size: cover;
+
+    color: #fff;
+    margin: 0 auto ;
+}
+
+h2{
+    text-align: center;
+}
+
+h1{
+
+    background: red;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 10px 15px;
+
+}
+
+
+.col{
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.price-box{
+    background: #bebebe;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+}
+
+.price-box .header{
+    background: #000000;
+    color: #fff;
+    font: 25px;
+}
+
+.price-box .header.header-green{
+    background: red;
+}
+
+.price-box li{
+padding: 20px;
+border-bottom: 20px solid #e2e2e2;
+text-align: center;
+}
+
+.price-box li:hover{
+    background: #a7a2a2;
+}
+
+.btn{
+    background: red;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+@media (max-width: 760px){
+    .col{
+        width: 100%;
+    }
+}
